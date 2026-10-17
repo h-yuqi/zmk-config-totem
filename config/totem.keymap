@@ -188,8 +188,8 @@
         sym_layer {
             display-name = "Sym";
             bindings = <
-       &kp CARET  &kp LT    &kp GT    &kp HASH     &kp DOLLAR    &kp EXCL       &kp AMPERSAND      &kp ASTERISK     &kp DQT          &kp SQT
-       &kp LBRC   &kp RBRC  &kp LPAR  &kp RPAR     &kp EQUAL     &kp BACKSLASH  &smod LCTRL LCTRL  &smod LALT LALT  &smod LGUI LGUI  &smod LSHIFT LSHIFT
+       &kp CARET  &kp SQT   &kp DQT   &kp HASH     &kp DOLLAR    &kp EQUAL      &kp AMPERSAND      &kp ASTERISK     &kp LT           &kp GT
+       &kp LBRC   &kp RBRC  &kp LPAR  &kp RPAR     &kp EXCL      &kp BACKSLASH  &smod LCTRL LCTRL  &smod LALT LALT  &smod LGUI LGUI  &smod LSHIFT LSHIFT
 &none  &kp TILDE  &kp LBKT  &kp RBKT  &kp PERCENT  &kp GRAVE     &kp PIPE       &kp PLUS           &kp MINUS        &kp UNDER        &kp AT               &none
                             &trans    &trans       &trans        &trans         &trans             &trans
             >;
